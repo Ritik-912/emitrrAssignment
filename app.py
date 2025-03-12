@@ -50,7 +50,6 @@ def reset_app():
 
 if st.button("Reset"):
     reset_app()
-    st.experimental_rerun()
 
 # Input selection: Text box or file upload
 input_method = st.radio("Select Input Method:", ("Text Input", "Upload Text File"))
